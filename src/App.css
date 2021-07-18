@@ -1,0 +1,61 @@
+body, html{
+background-color:skyblue;
+height: 100px;
+}
+
+.titletodo {
+text-align:center;
+color:white
+}
+
+.todo{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  padding:10px;
+  margin:10px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.status button{
+  margin:2px;
+}
+
+.completeButton{
+  background-color: skyblue;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  
+}
+
+.removeButton{
+  background-color: red;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+}
+
+input{
+  margin:10px;
+  padding:10px;
+  width:97%;
+  border-radius: 5px;
+  border:none;
+  outline: none;
+
+}
+
+.todolength {
+  height:600px;
+  background-color: lightgrey;
+  overflow: auto;
+  
+}
+
+
+.todo p{
+  width:90%;
+  
+}
